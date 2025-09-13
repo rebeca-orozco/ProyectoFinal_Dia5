@@ -1,0 +1,93 @@
+.App{
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 40rem; /* antes 30rem */
+  max-width: 95%; /* antes 80% */
+  background-color: white;
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 10px;
+  flex: 1;
+  border-radius: 30px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.agregar {
+  background-color: #28a745;
+}
+
+button.eliminar {
+  background-color: #dc3545;
+}
+
+/* Hover en el botón */
+button.agregar:hover {
+  background-color: #218838;
+  transform: scale(1.1);
+}
+
+button.eliminar:hover {
+  background-color: #dc3545;
+  transform: scale(1.1);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edeef0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0.2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.todo-item:hover {
+  box-shadow: 0.4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.todo-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  overflow-wrap: break-word;
+  flex-grow: 1;
+}
