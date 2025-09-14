@@ -8,7 +8,7 @@
 - **API en AWS (API Gateway):**  
   (https://wme20zzgy5.execute-api.us-east-2.amazonaws.com/guestbook)
 
-- **Documentación del proyecto (Word):**  
+- **Documentación del proyecto:**  
 [Documentacion.pdf](https://github.com/user-attachments/files/22316410/Documentacion.pdf)
 
 ---
