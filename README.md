@@ -15,4 +15,4 @@
 
 ## Notas
 Este repositorio contiene el código fuente completo.  
-La documentación detallada del proyecto se encuentra en el archivo Word adjunto.
+La documentación detallada del proyecto se encuentra en el archivo pdf adjunto.
